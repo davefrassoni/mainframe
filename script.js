@@ -1,6 +1,6 @@
 const projects = [
   {
-    name: "Horar",
+    name: "Horario",
     url: "https://horar.io",
     description: "Scheduling web app monorepo built with Vue, Django, DRF, and Nginx."
   },
