@@ -89,6 +89,14 @@ h1 {
   text-wrap: balance;
 }
 
+.title-line {
+  margin: 0.85rem 0 0;
+  color: #e6ecff;
+  font-weight: 600;
+  font-size: clamp(0.95rem, 2.2vw, 1.35rem);
+  letter-spacing: 0.04em;
+}
+
 .about {
   margin-top: 1.7rem;
   display: grid;
