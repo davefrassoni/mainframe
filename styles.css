@@ -130,6 +130,15 @@ h1 {
   padding: 2.2rem 0 1.6rem;
 }
 
+.projects-header {
+  margin: 0 auto 0.8rem;
+  width: min(1000px, calc(100% - 2.6rem));
+  color: #d9fff4;
+  font-size: 0.86rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .carousel {
   overflow: hidden;
   width: 100%;
@@ -188,10 +197,18 @@ h1 {
 }
 
 .project-url {
-  margin: 0.35rem 0 0;
+  margin: 0.48rem 0 0;
   color: #c5ffe7;
-  font-size: 0.86rem;
+  font-size: 0.8rem;
   word-break: break-word;
+  opacity: 0.9;
+}
+
+.project-description {
+  margin: 0.42rem 0 0;
+  color: #d2d8ef;
+  font-size: 0.81rem;
+  line-height: 1.35;
 }
 
 .bg-orb {
@@ -264,6 +281,11 @@ h1 {
 
   .projects {
     padding: 1.9rem 0 1.1rem;
+  }
+
+  .projects-header {
+    width: min(1000px, calc(100% - 1.4rem));
+    font-size: 0.78rem;
   }
 
   .project-card {
