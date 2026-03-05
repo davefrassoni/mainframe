@@ -52,7 +52,7 @@ function createCard(project) {
   description.className = "project-description";
   description.textContent = project.description;
 
-  link.append(name, description, url);
+  link.append(name, url, description);
   return link;
 }
 
